@@ -1,0 +1,589 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#mainbody
+{
+    width: 100%;
+    font-family: sans-serif;
+}
+#image-container
+{
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/landing.jpg');
+    background-size: cover;
+}
+#ic-top
+{
+    height: 10%;
+    width: 100%;
+    position: relative;
+}
+
+/* nav links code*/
+#page-navigation-link
+{
+    height: 100%;
+    width: 55%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7em;
+}
+.navigation
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+.navigation:hover, .pnl-hl-home
+{
+    border-bottom: 3px solid black;
+    color: black;
+}
+/* logo portion code starts */
+#logo-container
+{
+    height: 100%;
+    width: 45%;
+    position: relative;
+}
+#logo-design
+{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo-design span
+{
+    font-size: 50px;
+    color: white;
+}
+#logo-design #span1 span
+{
+    font-weight: 900;
+}
+#ic-bottom
+{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+#text-container
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+#header-text
+{
+    text-align: center;
+    font-size: 2.2em;
+    color: white;
+    text-shadow: 3px 1px 4px black;
+    margin-bottom: 0.1em;
+}
+#desc-text-holder
+{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 200px;
+}
+#desc-text
+{
+    margin-left: 19.5em;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    text-shadow: -5px -5px 7px black;
+}
+#welcome-text
+{
+    height: 100px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3em;
+}
+#headerOfWt
+{
+    text-align: center;
+    width: 100%;
+    color: rgb(22, 86, 139);
+}
+#headerOfWt h1
+{
+    padding-top: 1.4em;
+}
+#headerOfWt h1 span
+{
+    border-bottom: 4px solid rgb(22, 86, 139);
+    padding-bottom: .3em;
+}
+#paragraphOfWt
+{
+    width: 100%;
+    height: 200px;
+}
+#paragraphOfWt p
+{
+    width: 70%; 
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    color: rgb(135, 145, 155);
+    font-size: 1.1em;
+}
+#readmore
+{
+    background: none;
+    outline: none;
+    border: 1px solid rgb(22, 86, 139);
+    color: rgb(22, 86, 139);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+#readmore:hover
+{
+    background-color: rgb(22, 86, 139);
+    color: white;
+    transition: .5s;
+}
+#representation
+{
+    height: 40vh;
+}
+.repcard
+{
+    height: 100%;
+    background-color: rgb(22, 86, 139);
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 33.4%;
+    margin-left: -4px;
+    position: relative;
+    color: rgb(248, 248, 248);
+}
+.centercard
+{
+    background-color: black;
+}
+.headerOfRc
+{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    margin-top: 1.7em;
+}
+.descriptionWrapper
+{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.descriptionText
+{
+    text-align: center;
+}
+/* Services code portion */
+#services
+{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 6%;
+}
+.new-block-header-wrapper
+{
+    height: 17%;
+    margin-bottom: 3.5%;
+}
+.new-block-header-text
+{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding-top: 1.4em;
+    color: rgb(22, 86, 139);
+}
+.new-block-header-text span
+{
+    border-bottom: 4px solid rgb(22, 86, 139);
+    padding-bottom: .3em;
+}
+.new-block-description-wrapper
+{
+    height: 14%;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 2.5%;
+}
+.new-block-description-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    color: rgb(135, 145, 155);
+    font-size: 1.1em; 
+}
+#service-list
+{
+    width: 100%;
+    height: 65%;
+    position: relative;
+}
+.content-wrapper
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+}
+.service-item-wrapper
+{
+   width: 33.09%;
+   display: inline-flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+}
+.service-items
+{
+   height: 40%;
+   width: 90%;
+   margin-bottom: 1.75em;
+   background-color: rgb(235, 236, 236);
+   border-radius: 50px 0px 0px 50px;
+   position: relative;
+}
+.service-items-logo
+{
+    text-align: center;
+    font-size: xx-large;
+    height: 100%;
+    width: 20%;
+    border: 2px solid rgb(22, 86, 139);
+    border-radius: 50%;
+    color: rgb(22, 86, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-items-name
+{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    height: 100%;
+    width: 80%;
+    padding-top: 1.7em;
+    color: rgb(22, 86, 139);
+    font-weight: bolder;
+}
+#about-us
+{
+    height: 38vh;
+    width: 100%;
+    position: relative;
+    background-color: rgb(22, 86, 139);
+}
+.content-item-wrapper
+{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+.content-item
+{
+    width:90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(248, 248, 248);
+}
+.about-us-items
+{
+    margin-bottom: 5%;
+}
+.numeric-values
+{
+    font-size: 4em;
+    font-weight: bolder;
+}
+.logo-container
+{
+    width: 25%;
+    height: 30%;
+    margin-top: 8%;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.logo-container i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+}
+.item-desc-text
+{
+    font-size: .9em;
+    font-family: sans-serif
+}
+#portfolio-section
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10%;
+}
+.portfolio-description
+{
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigation-link
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio-nav
+{
+    color: rgb(22, 86, 139);
+    margin-right: 1.2em;
+    font-size: .9em;
+}
+.portfolio-nav:hover, .pn-all
+{
+    border-bottom: 1px solid rgb(22, 86, 139);
+    color: rgb(22, 86, 139);
+}
+.portfolio-img-wrapper
+{
+    width: 100%;
+    height: 69%;
+    position: relative;
+}
+.clearfix
+{
+    margin-left: 10px;
+}
+.img-container
+{
+    height: 100%;
+    width: 33.09%;
+    margin-left: -5px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+}
+.img-container img
+{
+    width: 100%;
+    height: 50%;
+}
+#our-words
+{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(22, 86, 139);
+    position: relative;
+}
+.content-container
+{
+    height: 100%;
+    width: 49.8%;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+}
+.ow-image-container
+{
+    height: 40%;
+    width: 25%;
+    position: relative;
+}
+.ow-image-container img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 10%;
+    border: 2px solid white;
+    border-radius: 100px 0px 0px 100px;
+}
+.text-container
+{
+    height: 100%;
+    width: 72%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(248, 248, 248);
+}
+.text-container h3
+{
+    margin-top: 2.3em;
+    margin-left: 1rem;
+}
+.text-container p
+{
+    margin: 15px;
+}
+.text-container em
+{
+    margin-left: 1rem;
+}
+#contact-us
+{
+    height: 80vh;
+    margin-bottom: 4%;
+}
+.contact-detail-container
+{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.contact-details
+{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.input-details
+{
+    margin-bottom: 2em;
+    padding-left: 0.8em;
+    outline: none;
+    background: none;
+    border: 2px solid rgb(22, 86, 139);
+    color: rgb(22, 86, 139);
+    border-radius: 10px;
+    height: 4em;
+    font-size: 1em;
+    width: 60%
+}
+.text-area
+{
+    height: 50%;
+    width: 60%;
+    resize: none;
+    padding-top: 7px;
+    font-size: 1em;
+}
+.text-area::placeholder, .input-details::placeholder
+{
+    color: rgb(22, 86, 139);
+    font-family: sans-serif;
+}
+.submit-button
+{
+    background-color: rgb(22, 86, 139);
+    border: 2px solid rgb(22, 86, 139);
+    color: rgb(248, 248, 248);
+    height: 3em;
+    width: auto;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.submit-button:hover
+{
+    background-color: rgb(11, 67, 112);
+    border: 2px solid rgb(11, 67, 112);
+    transition: .3s;
+}
+.contact-form-container
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.contact-address
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 70%;
+    margin-left: 3em;
+    color: rgb(22, 86, 139);
+}
+.social-media a
+{
+    color: rgb(22, 86, 139);
+    font-size: 2em;
+    margin-right: 1.3em;
+}
+#footer
+{
+    height: 13vh;
+    background-color: rgb(22, 86, 139);
+    text-align: center;
+    position: relative;
+}
+.footer-text
+{
+    padding-top: 1.2em;
+    color: rgb(248, 248, 248);
+    font-size: 1.4em;
+}
